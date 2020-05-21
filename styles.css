@@ -1,0 +1,202 @@
+body,p{
+  font-size: 14px;
+}
+ 
+/* Devices (phones, up to 767px) */
+@media screen and (max-width: 767px) {
+    body,p
+    {
+        font-size: 12px;
+    }
+    #footerText{
+	color: #282828;
+	font-size: 11px;
+}
+
+    
+}
+ 
+/* Small devices (tablets, 768px and upto 939px) */
+@media (min-width: 768px) and (max-width: 939px) {
+    body,p
+    {
+        font-size: 14px;
+    }
+    #footerText{
+	color: #282828;
+	font-size: 13px;
+}
+
+    
+}
+ 
+/* tablets/desktops and upto 1199px */
+@media (min-width: 940px) and (max-width: 1199px) {
+    body,p
+    {
+        font-size: 16px;
+    }
+    #footerText{
+	color: #282828;
+	font-size: 15px;
+}
+
+    
+}
+ 
+/* large desktops and above 1200px */
+@media screen and (min-width: 1200px) {
+    body,p
+    {
+        font-size: 18px;
+
+    }
+    #footerText{
+	color: #282828;
+	font-size: 15px;
+}
+
+    
+}
+
+#heading1{	
+	font-family: Bigelow Rules, serif;
+	font-size: 50px;
+	color: white;
+}
+
+#subHeader1{
+	background-color: #330000;
+}
+
+#mainSearch{
+	margin: 30px 0px;	
+	background-color: #330000;
+}
+
+#mainSearchIcon{
+	 background-color: #330000;
+	 color: white;
+}
+
+#mainSearchIcon:hover{	
+	background-color: white;
+	color: black;
+}
+
+#mainSearch:hover{	
+	background-color: white;
+	
+}
+
+#dropdownAll{
+	margin: 20px 0px;	
+	background-color: #330000;
+}
+
+#selectorButton{
+	background-color: #CC6600;
+	color: white;
+	width: 90px;
+	font-size: 15px;
+	margin: 5px;
+}
+
+#mainNavigationBar{
+	margin: 0px;
+	background-color: #330000;
+	border-radius: 0px;
+}
+
+#mainNavbar{
+	text-align: center;
+}
+
+#mainCarousel{
+	 padding: 0px;
+	 margin: 0px;
+}
+
+.quotesCara{
+	width: 100%;
+}
+
+#feedbackMessageBox{
+	padding: 30px;
+	margin: 40px;
+	border-radius: 30px;
+	background-color: #CCFFFF;
+}
+
+#feedbackLabel{
+	height: 35px;
+	padding: 10px;
+	font-size: 15px;
+	background-color: #00CC99;
+}
+
+#feedbackSubmitButton{
+	background-color: #CC6600;
+	color: white;
+	font-size: 15px;
+}
+
+p{
+	margin: 0px;
+}
+
+#centerSection{
+	padding: 15px 25px;
+	border-radius: 30px;
+}
+
+#leftAside{
+	padding: 15px;
+}
+
+#rightAside{
+	padding: 15px;
+}
+
+#movieSelectorLabel{
+	padding-bottom: 15px;
+
+}
+
+#mainSection{
+	margin: 30px;
+}
+
+#thisdaythatyear{
+	padding: 40px;
+	margin: 40px;
+	border-radius: 30px;
+}
+
+#registerButton{
+	margin: 10px 10px 0px 10px;
+}
+
+#loginButton{
+	margin: 10px 10px 0px 10px;
+}
+
+.footerIcon{
+	color: #282828;
+}
+
+#footer{
+	background-color: #F8F8F8;
+}
+
+
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+ }
+
+ .affix + .container-fluid {
+    padding-top: 70px;
+ }
